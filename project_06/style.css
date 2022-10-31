@@ -1,0 +1,69 @@
+* {
+  margin: 0px;
+}
+
+.buttonsHeader {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+
+
+#buttonplayer1 {
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+#buttonplayer2 {
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+#board {
+  display: flex;
+  flex-wrap: wrap;
+  padding: none;
+  justify-content: center;
+}
+/* the boxes to play game */
+.box {
+  display: flex;
+  width: 30.33%;
+  height: 200px;
+  background-color: lightgrey;
+  border: 2px solid black;
+  font-size: 100px;
+  font-family: cursive;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer {
+  display: flex;
+  margin: 0px;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+
+#restartButton {
+  width: 10%;
+  height: 40px;
+  background-color: grey;
+  color: white;
+  font-family: monospace;
+}
+
+#GameStat {
+  display: flex;
+  color: white;
+  font-weight: bolder;
+}
+
+
+#huh{
+  color:white;
+}
